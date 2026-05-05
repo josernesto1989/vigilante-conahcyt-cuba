@@ -5,7 +5,7 @@ import { prisma } from "./lib/prisma"
 
 const TARGET_URL = "https://consulmex.sre.gob.mx/la-habana/index.php/avisos/78-becarios-conacyt"
 
-const TWO_MINUTES = 1 * 10 * 1000
+const TWO_MINUTES = 24 * 60 * 60 * 1000
 
 function buildEmailHtml(passportId: string) {
   return `
