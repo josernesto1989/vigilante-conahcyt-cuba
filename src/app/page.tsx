@@ -64,11 +64,13 @@ export default function Home() {
     setError("")
     setSuccess(false)
 
+    const normalizedPassportId = passportId.toUpperCase().trim()
+
     try {
       const res = await fetch("/api/aspirante", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, passportId }),
+        body: JSON.stringify({ email, passportId: normalizedPassportId }),
       })
 
       const data = await res.json()

@@ -20,11 +20,11 @@ export async function scrapePassportIds(): Promise<string[]> {
 
     const passportIds: string[] = []
 
-    $("table tr").each((_, row) => {
+$("table tr").each((_, row) => {
       const tds = $(row).find("td")
       if (tds.length >= 3) {
-        const passportId = $(tds[2]).text().trim()
-        if (passportId && passportId !== "Pasaporte") {
+        const passportId = $(tds[2]).text().trim().toUpperCase()
+        if (passportId && passportId !== "PASA PORTE" && /^[A-Z0-9]+$/.test(passportId)) {
           passportIds.push(passportId)
         }
       }

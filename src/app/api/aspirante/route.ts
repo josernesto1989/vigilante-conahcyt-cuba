@@ -12,10 +12,12 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    const normalizedPassportId = passportId.toUpperCase().trim()
+
     const aspirante = await prisma.aspirante.create({
       data: {
         email,
-        passportId,
+        passportId: normalizedPassportId,
       },
     })
 
