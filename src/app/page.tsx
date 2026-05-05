@@ -21,7 +21,7 @@ const INFO_CONTENT = [
   },
   {
     title: "¿Con qué frecuencia se verifica?",
-    content: "La verificación se realiza una vez al día (8:00 AM hora de Cuba). El sistema revisa la lista oficial del Consulado."
+    content: "La verificación se realiza una vez al día. El sistema revisa la lista oficial del Consulado."
   },
   {
     title: "Aviso importante",
