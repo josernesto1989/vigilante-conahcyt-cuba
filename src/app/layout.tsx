@@ -16,10 +16,7 @@ export const metadata: Metadata = {
   title: "Vigilante CONAHCYT",
   description: "Vigilante no-oficial que monitorea la lista de becarios CONAHCYT publicada por el Consulado de México en La Habana.",
   keywords: ["CONAHCYT", "CONACYT", "becarios", "monitoreo", "Cuba", "Consulado México", "Havana", "La Habana", "becas", "visa", "estudiantes", " Mexico", "vigilante", "alerta", "notificaciones"],
-  authors: [{ name: "José Ernesto Carreño Bueno", email: "jec.bueno.dev@gmail.com" }],
-  contact: {
-    email: "jec.bueno.dev@gmail.com",
-  },
+  authors: [{ name: "José Ernesto Carreño Bueno", url: "mailto:jec.bueno.dev@gmail.com" }],
 };
 
 export default function RootLayout({
