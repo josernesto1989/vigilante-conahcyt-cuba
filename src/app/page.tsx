@@ -9,7 +9,7 @@ import { ChevronDown, ChevronUp } from "lucide-react"
 const INFO_CONTENT = [
   {
     title: "¿Qué es este servicio?",
-    content: "Este es un vigilante no-oficial que monitorea la lista de becarios CONACYT publicada por el Consulado de México en La Habana. No estamos afiliados a CONACYT ni al gobierno mexicano."
+    content: "Este es un vigilante no-oficial que monitorea la lista de becarios CONAHCYT publicada por el Consulado de México en La Habana. No estamos afiliados a CONACYT ni al gobierno mexicano."
   },
   {
     title: "¿Cómo funciona?",
