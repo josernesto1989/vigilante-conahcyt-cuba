@@ -9,7 +9,7 @@ import { ChevronDown, ChevronUp } from "lucide-react"
 const INFO_CONTENT = [
   {
     title: "¿Qué es este servicio?",
-    content: "Este es un vigilante no-oficial que monitorea la lista de becarios CONAHCYT publicada por el Consulado de México en La Habana. No estamos afiliados a CONACYT ni al gobierno mexicano."
+    content: "Este es un vigilante no-oficial que monitorea la lista de becarios CONAHCYT publicada por el Consulado de México en La Habana. No estamos afiliados a CONAHCYT ni al gobierno mexicano."
   },
   {
     title: "¿Cómo funciona?",
@@ -25,7 +25,7 @@ const INFO_CONTENT = [
   },
   {
     title: "Aviso importante",
-    content: "Este proyecto es independiente y no tiene ninguna relación con CONACYT ni con las autoridades mexicanas. Para información oficial, consulta directamente con el Consulado."
+    content: "Este proyecto es independiente y no tiene ninguna relación con CONAHCYT ni con las autoridades mexicanas. Para información oficial, consulta directamente con el Consulado."
   }
 ]
 
@@ -96,13 +96,13 @@ export default function Home() {
         <CardHeader>
           <CardTitle>Registro de Aspirante</CardTitle>
           <CardDescription>
-            Ingresa tus datos para registrarte, serás notificado si tu número de pasaporte aparece en la lista de becarios CONACYT. Tus datos serán eliminados después de la notificación.
+            Ingresa tus datos para registrarte, serás notificado si tu número de pasaporte aparece en la lista de becarios CONAHCYT. Tus datos serán eliminados después de la notificación.
           </CardDescription>
         </CardHeader>
         
         <CardContent>
           <div className="mb-4 rounded-md bg-yellow-50 p-3 text-sm text-yellow-800">
-            <strong>Nota:</strong> Este proyecto es independiente y no está afiliado a CONACYT.
+            <strong>Nota:</strong> Este proyecto es independiente y no está afiliado a CONAHCYT.
           </div>
         </CardContent>
 
